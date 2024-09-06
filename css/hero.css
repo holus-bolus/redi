@@ -118,6 +118,8 @@
 .hero__countdown {
     background-color: #ffffff;
     border-radius: 10px;
+    min-height: 470px;
+    max-width: 270px;
 }
 
 .hero__countdown-header-wrapper {
@@ -127,7 +129,6 @@
     background-position: center;
     overflow: hidden;
     text-align: center;
-    margin-bottom: 50px;
     min-height: 190px;
     border-radius: 10px;
     padding: 30px;
@@ -152,6 +153,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 
 .price-container {
     display: flex;
@@ -190,4 +192,139 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.hero__input-wrapper {
+    padding: 0 25px;
+}
+
+
+.hero__name-input,
+#phone {
+    width: 100%;
+    font-size: 16px;
+    color: #6B6B6B;
+    border: none;
+    background-color: #F5F0EF;
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    top: 0.5px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F0EF;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    max-height: 50px;
+}
+
+.phone-input .prefix {
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.hero__phone-input-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F0EF;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.hero__phone-input {
+    position: relative;
+    left: -5px;
+}
+
+
+input::placeholder {
+    color: #999999;
+}
+
+input {
+    position: relative;
+    top: 1px;
+    background-color: #F5F0EF;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+
+.hero__name-input-label,
+.phone-input {
+    display: flex;
+    align-items: center;
+    background-color: #F5F0EF;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    max-height: 50px;
+    width: 100%;
+}
+
+
+.hero__name-input,
+#phone {
+    width: 100%;
+    font-size: 16px;
+    color: #6B6B6B;
+    border: none;
+    background-color: #F5F0EF;
+    border-radius: 25px;
+    outline: none;
+    text-align: left;
+}
+
+.hero__input-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.phone-input .prefix {
+    color: #6B6B6B;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+input::placeholder {
+    color: #999999;
+}
+
+
+.hero__order-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hero__order-button {
+    background-color: #A1D337;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    border-radius: 25px;
+    border: none;
+}
+
+.hero__order-date{
+    color: #444;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
 }

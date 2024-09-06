@@ -77,20 +77,27 @@
                             <p class="hero__actual-price">60uah</p>
                         </div>
                     </div>
-                    <label>
-                        <img src="./images/number-paw.png" alt="the paw icon">
-                        <input type="text" name="name" class="hero__name-input" placeholder="Name"></label>
-                    <div class="phone-input">
-                        <label>
-                            <img src="./images/number-paw.png" alt="the paw icon">
+                    <div class="hero__input-wrapper">
+                        <label class="hero__name-input-label">
+                            <img src="./images/number-paw.png" alt="the paw icon" class="hero__input-icon">
+                            <input type="text" name="name" class="hero__name-input" placeholder="Name">
+                        </label>
+
+                        <div class="phone-input">
+                            <img src="./images/number-paw.png" alt="the paw icon" class="hero__input-icon">
                             <span class="prefix">+38(0</span>
-                            <input type="text" id="phone" maxlength="14" placeholder="__) ___-__-__"></label>
+                            <label class="hero__phone-input-label">
+                                <input type="text" class="hero__phone-input" id="phone" maxlength="14" placeholder="__) ___-__-__">
+                            </label>
+                        </div>
+                  <div class="hero__order-button-wrapper">
+                      <button class="hero__order-button">Order</button>
+                  </div>
+                        <p class="hero__order-date">
+                            Order date:
+                            <span class="hero__order-date-num">17.11.2021</span>
+                        </p>
                     </div>
-                    <button class="hero__order-button">Order</button>
-                    <p class="hero__order-date">
-                        Order date:
-                        <span class="hero__order-date-num">17.11.2021</span>
-                    </p>
                 </div>
 
             </div>
