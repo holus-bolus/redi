@@ -2,6 +2,7 @@
 @import "header.css";
 @import "hero.css";
 @import "manufacturer.css";
+@import "best-uses.css";
 
 .container {
     width: 1150px;
