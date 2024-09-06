@@ -49,5 +49,145 @@
 .hero__about-wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.hero__text {
+    color: #F6F7E4;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 70px;
+}
+
+
+.hero__desc-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 45px 35px;
+    border-radius: 20px;
+    background: #7FB3E1;
+    min-width: 325px;
+}
+
+
+.hero__desc-item {
+    display: flex;
+    gap: 20px;
     align-items: center;
+}
+
+.hero__desc-list-icon {
+    height: 25px;
+}
+
+.hero__desc-list-text {
+    color: #DFE4DE;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.hero__image-bag-wrapper {
+    position: relative;
+    top: 40px;
+}
+
+.hero__cat-left, .hero__cat-right {
+    height: 290px;
+    position: absolute;
+}
+
+.hero__cat-left {
+    left: 280px;
+    top: 100px;
+    z-index: 3;
+}
+
+
+.hero__cat-right {
+    right: 280px;
+    top: 100px;
+    z-index: 3;
+}
+
+.hero__countdown {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.hero__countdown-header-wrapper {
+    background-image: url("../images/timer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+    min-height: 190px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.hero__countdown-header {
+    color: #483C08;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.hero__countdown-timer {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f6e791;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.price {
+    color: #6B6B6B;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    display: inline-block;
+}
+
+.price::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #F5A47E;
+    transform: rotate(-10deg);
+    transform-origin: center;
+}
+
+
+.hero__actual-price {
+    color: #483C08;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
