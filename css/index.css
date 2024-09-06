@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "header.css";
+@import "hero.css";
 
 .container {
     width: 1150px;
