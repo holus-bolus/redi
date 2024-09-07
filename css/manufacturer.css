@@ -1,5 +1,6 @@
 .manufacturer {
-    padding: 100px 0;
+padding-top: 60px;
+padding-bottom: 100px;
     background-image: url("../images/manugacturer-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
