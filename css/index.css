@@ -63,6 +63,27 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
 .subheading {
     text-align: center;
     font-size: 52px;
@@ -73,4 +94,12 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 480px) {
+    .subheading {
+        font-size: 36px;
+    }
+
 }

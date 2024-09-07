@@ -73,6 +73,13 @@
     }
 }
 
+@media (max-width: 320px) {
+    .hero__about-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 .desktop-break {
     display: inline;
 }
@@ -81,6 +88,12 @@
 @media screen and (max-width: 768px) {
     .desktop-break {
         display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero__text {
+        width: 80%;
     }
 }
 
@@ -125,10 +138,24 @@
     }
 }
 
+@media (max-width: 320px) {
+    .hero__desc-list {
+        padding: 20px;
+        min-width: 200px;
+    }
+}
+
+
 .hero__desc-item {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+@media (max-width: 320px) {
+    .hero__desc-item {
+        width: 80%;
+    }
 }
 
 .hero__desc-list-icon {
@@ -157,11 +184,13 @@
 }
 
 @media (max-width: 768px) {
-    .hero__image-bag-wrapper img{
+    .hero__image-bag-wrapper img {
         position: relative;
         top: -150px;
     }
 }
+
+
 
 
 .hero__cat-left, .hero__cat-right {
@@ -198,6 +227,31 @@
         left: 600px;
     }
 }
+
+@media (max-width: 320px) {
+    .hero__image-bag-wrapper {
+        position: relative;
+        top: 150px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero__image-bag {
+        width: 80%;
+        height: auto;
+    }
+
+    .hero__about-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero__text {
+        width: 80%;
+    }
+}
+
 
 .hero__countdown {
     background-color: #ffffff;

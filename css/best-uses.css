@@ -86,3 +86,24 @@
         line-height: 20px;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+    .best-uses__text-wrapper svg {
+        height: 400px;
+    }
+
+    .best-uses-svg {
+        height: 400px;
+    }
+
+    .best-uses-path {
+        d: path("M10 10H665.554L748.825 274.83L665.485 544H10L10 10V10Z");
+    }
+
+    .text-content {
+        font-size: 32px;
+        line-height: 1.8;
+        padding: 20px;
+    }
+}
