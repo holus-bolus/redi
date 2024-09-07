@@ -55,6 +55,13 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 960px) {
+    .container {
+        width: 80%;
+    }
+
+}
+
 
 .subheading {
     text-align: center;
