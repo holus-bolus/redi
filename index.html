@@ -13,9 +13,9 @@
             <img src='images/header-pet.webp' alt='The header logo' class='header__logo'>
             <nav class='nav'>
                 <ul class='header__list'>
-                    <li class='header__item'><a href='#' class='header__link'>Order</a></li>
-                    <li class='header__item'><a href='#' class='header__link'>About</a></li>
-                    <li class='header__item'><a href='#' class='header__link'>Results</a></li>
+                    <li class='header__item'><a href='#order-section' class='header__link'>Order</a></li>
+                    <li class='header__item'><a href='#about-section' class='header__link'>About</a></li>
+                    <li class='header__item'><a href='#results-section' class='header__link'>Results</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,7 +69,7 @@
                 </div>
                 <img src='images/hero-cat-right.webp' class='hero__cat-right' alt='The cat with a paw'>
                 <div class='hero__countdown'>
-                    <div class='hero__countdown-header-wrapper'>
+                    <div class='hero__countdown-header-wrapper' id='order-section'>
                         <h2 class='hero__countdown-header'>Time left</h2>
                         <p class='hero__countdown-timer' id='hero__countdown-timer'>2:00:00</p>
                         <div class='price-container'>
@@ -94,10 +94,8 @@
                         <div class='hero__order-button-wrapper'>
                             <button class='hero__order-button'>Order</button>
                         </div>
-                        <p class='hero__order-date'>
-                            Order date:
-                            <span class='hero__order-date-num'>17.11.2021</span>
-                        </p>
+             <p class='hero__order-date' id='hero__order-date'></p>
+
                     </div>
                 </div>
 
@@ -107,7 +105,7 @@
 </div>
 <section class='manufacturer'>
     <div class='container manufacturer__container'>
-        <h2 class='subheading manufacturer__header'>
+        <h2 class='subheading manufacturer__header' id='about-section'>
             From the manufacturer
         </h2>
         <ul class='manufacturer__list'>
@@ -146,7 +144,7 @@
         </ul>
     </div>
 </section>
-<section class='best-uses'>
+<section class='best-uses' id='results-section'>
     <div class='container best-uses__container'>
         <h2 class='subheading best-uses__header'>Best Uses for Calming Chews</h2>
         <div class='best-uses__info'>

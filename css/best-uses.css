@@ -50,10 +50,11 @@
     text-align: left;
     padding: 10px;
 }
+
 @media screen and (max-width: 960px) {
     .best-uses__info {
         flex-direction: column;
-        align-items: center; /
+        align-items: center;
     }
 
     .best-uses__text-wrapper {
@@ -67,5 +68,21 @@
 
     .text-content {
         padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .best-uses {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+
+    .best-uses__header {
+        margin-bottom: 50px;
+    }
+
+    .best-uses__text {
+        font-size: 22px;
+        line-height: 20px;
     }
 }

@@ -14,6 +14,13 @@
 }
 
 
+@media (max-width: 480px) {
+    .manufacturer__list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .manufacturer__item {
     display: flex;
     flex-direction: column;
