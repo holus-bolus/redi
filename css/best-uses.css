@@ -50,3 +50,22 @@
     text-align: left;
     padding: 10px;
 }
+@media screen and (max-width: 960px) {
+    .best-uses__info {
+        flex-direction: column;
+        align-items: center; /
+    }
+
+    .best-uses__text-wrapper {
+        max-width: 100%;
+    }
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-content {
+        padding: 15px;
+    }
+}
